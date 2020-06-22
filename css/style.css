@@ -908,7 +908,7 @@ label {
     margin: 0;
     margin-right: 20px;
     height: 57px;
-   top: 5px;
+   top: -2px;
 
 }
 
@@ -2891,7 +2891,7 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
     overflow: hidden;
     padding-top: 100px;
     padding-bottom: 93px;
-    background: #F7F7F7;
+    background:#06080f;
 }
 
 .single-footer-widget .footer-logo {
@@ -2914,7 +2914,7 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
 }
 
 .single-footer-widget .our-info .location i {
-    position: absolute;
+/*    position: absolute;*/
     top: 7px;
     left: 1px;
     color: #ef5b26;
@@ -3174,7 +3174,7 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
 =============================================
 ***/
 .footer-bottom-area {
-    background: #E9E9E9;
+    background: #0a0f19;
     padding: 13px;
     overflow: hidden;
 }
@@ -6554,7 +6554,24 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
 }
 
 
+.dndn{
+    display: block;
+}
 
+.dndn1{
+    display: none;
+}
 
+.footer_logo i{
+    color: #ef5b26;
+    font-size: 16px;
+        font-size: 20px;
+    padding: 10px;
+}
 
-
+.footer_logo p{
+    color: #ef5b26;
+    font-size: 14px !important;
+        font-size: 20px;
+    padding: 10px;
+}
