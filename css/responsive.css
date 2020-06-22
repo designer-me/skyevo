@@ -16,7 +16,7 @@
     
     .header-area .header-contact-info {
         padding: 21px 0px 18px 0px;
-        margin-left: -144px;
+        margin-left: -5px;
     }
     .header-contact-info ul li {
         padding-right: 0;
@@ -75,22 +75,22 @@
 }
 @media only screen and (max-width: 780px){
       .header-area .header-contact-info {
-        margin-left: -64px;
+/*        margin-left: -64px;*/
     }
 }
 @media only screen and (max-width: 700px){
       .header-area .header-contact-info {
-        margin-left: 106px;
+/*        margin-left: 106px;*/
     }
 }
 @media only screen and (max-width: 480px){
        .header-area .header-contact-info {
-        margin-left: -50px;
+/*        margin-left: 76px;*/
     }
 }
 @media only screen and (max-width: 325px){
        .header-area .header-contact-info {
-        margin-left: -77px;
+            margin-left: 76px;
     }
 }
 @media only screen and (max-width: 1024px){
@@ -522,6 +522,12 @@
     }
     .top-bar-area {
         padding-bottom: 15px;
+        visibility: hidden;
+        display: none;
+    }
+   .header-contact-info ul li .text-holder h5{
+        visibility: hidden;
+        display: none;
     }
     .breadcrumb-area .left-side {
         width: 100%;
@@ -747,8 +753,11 @@
 @media only screen and (max-width: 445px) {
     
     .header-contact-info ul li {
+/*
         margin-left: 60px;
+        margin-left: 0px;
         margin-bottom: 30px;
+*/
     }
     .form-area {
         height: fit-content;
