@@ -820,7 +820,7 @@ label {
 ***/
 
 .main-header{
-	position:relative;
+	position:fixed;
 	left:0px;
 	top:0px;
 	z-index:999;
@@ -908,7 +908,7 @@ label {
     margin: 0;
     margin-right: 20px;
     height: 57px;
-   top: -2px;
+
 
 }
 
@@ -959,7 +959,7 @@ label {
 }
 
 .main-header .header-lower {
-    position: relative;
+    position: sticky;
     top: 0px;
     width: 100%;
     z-index: 5;
@@ -1250,7 +1250,7 @@ label {
 	text-align:center;
 	font-size:16px;
 	line-height: 44px;
-	color:#ffffff;
+	color:#3e3c38;
 	cursor:pointer;
 	z-index:5;
 	display:none;
@@ -1746,7 +1746,8 @@ label {
 .intro-area .single-item .img-holder img{
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    width: 100%;        
+    width: 100%;  
+    height: 250px;      
 }
 
 .intro-area .single-item .img-holder .overlay-style-two .box .content a i {
@@ -2275,6 +2276,8 @@ label {
 .project-area .about-img img {
     width: 100%;
     display: block;
+        height: 250px;
+    padding: 10px;
 }
 
 .project-area .about-img .t-icon {
@@ -6574,4 +6577,104 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
     font-size: 14px !important;
         font-size: 20px;
     padding: 10px;
+}
+.footer_horizontal{
+   border-style: 1px dashed rgba(255, 255, 255, 0.1);
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+/*  right:40px;*/
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+/*    float: left;*/
+}
+
+.my-float{
+    margin-top:16px;
+}
+.sticky-divi-button {
+color: #ffffff; /* You can change font color */
+font-family: "Raleway";
+font-size: 18px;  /* You can change font size */
+background-color: #f5a623; /* You can change color button */
+border-radius: 4px;
+letter-spacing: 0.8px;
+text-transform: uppercase;
+text-decoration: none;
+box-shadow: 0px 25px 28px -21px rgba(194,180,190,1);
+padding: 5px 2%;
+z-index: 10;
+position: fixed;
+bottom: 40px;
+/*right: 40px;*/
+}
+.sticky-divi-button:hover {
+background-color: #3ccee2; /* You can change color button on hover */
+box-shadow: none;
+}
+.call_icon
+
+{
+   
+}
+.call_icon{
+    position: absolute;
+       box-shadow: 0px 0px 10px #3ccee2;
+    border-radius: 50px;
+    letter-spacing: 0.8px;
+   padding: 10px;
+    background: #ef5b26;
+    -moz-box-shadow: 0 0 5px #fff;
+-webkit-box-shadow: 0 0 5px #fff;
+box-shadow: 0px 0px 5px #fff;
+    position: fixed;
+    bottom: 120px;
+  -moz-animation: bounce 0.9s infinite linear;
+  -o-animation: bounce 0.9s infinite linear;
+  -webkit-animation: bounce 0.9s infinite linear;
+  animation: bounce 0.9s infinite linear;
+  color:000;
+    
+}
+@-webkit-keyframes call_icon {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes call_icon {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes call_icon {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes call_icon {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes call_icon {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+.call_icon
+{
+    filter:progid:DXImageTransform.Microsoft.Glow(Color=white,Strength=5);
 }
