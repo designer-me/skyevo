@@ -136,7 +136,10 @@
         display: block;
     }
     
-    
+    .main-header.style-two .outer-search-box .seach-toggle{
+        display: block;
+        position: fixed;
+    }
 }
 
 
@@ -462,7 +465,14 @@
         padding-right: 0;
     }
     
-    
+    .Why_Choose_img{
+    width: 6%;
+    height: 25%;
+    position: absolute;
+    display: inline-block;
+    left: 16px;
+    top: 3px;
+    }
     
     
     
@@ -683,6 +693,14 @@
     }
     
     
+       .Why_Choose_img{
+    width: 11%;
+    height: 25%;
+    position: absolute;
+    display: inline-block;
+    left: 16px;
+    top: 3px;
+    }
     
     
     
