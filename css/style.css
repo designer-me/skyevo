@@ -1896,12 +1896,13 @@ label {
     padding: 50px 0px;
     overflow: hidden;
     position: relative;
-    background: #F7F7F7;
+    background:#06080f;
+
 }
 
 .cta-area h2 {
     font-size: 22px;
-    color: #222222;
+    color:white;
     font-weight: 600;
 }
 
@@ -2403,10 +2404,12 @@ label {
     padding: 0px 0px 0px 53px;
 }
 
+/*
 .faq-area .accordion-box .accordion .accord-content.collapsed {
     display: block;
     
 }
+*/
 
 .faq-area .accordion-box .accordion .accord-content p {
     font-weight: 500 !important;
@@ -3391,7 +3394,7 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
     font-size: 15px;
     box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.07);
     transition: all 500ms ease;
-    display: none;
+/*    display: none;*/
 }
 
 .main-header.style-two .outer-search-box .seach-toggle:hover,
@@ -3427,18 +3430,18 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
 }
 
 .main-header.style-two .search-box .form-group input[type="search"] {
-  background: #ffffff none repeat scroll 0 0;
-  border: 1px solid #222222;
-  color: #000;
-  display: block;
-  font-size: 13px;
-  line-height: 24px;
-  position: relative;
-  transition: all 500ms ease 0s;
-  width: 100%;
-  height: 40px;
-  padding-left: 15px;
-  padding-right: 50px;
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #222222;
+    color: #000;
+    display: block;
+    font-size: 13px;
+    line-height: 24px;
+    position: relative;
+    transition: all 500ms ease 0s;
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 50px;
 }
 
 .main-header.style-two .search-box .form-group input[type="search"]:focus{
@@ -3446,19 +3449,19 @@ box-shadow: 0px 0px 8px 2px rgba(227,227,227,1);
 }
 
 .main-header.style-two .search-box .form-group button, 
-.main-header.style-two .search-box .form-group input[type="submit"] {
-  background: #222;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  font-size: 13px;
-  height: 40px;
-  line-height: 40px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40px;
-  transition: all 500ms ease 0s;
+.main-header.style-two .search-box .form-group input[type="submit"]{
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    transition: all 500ms ease 0s;
 }
 
 .main-header.style-two .search-box .form-group button:hover,
@@ -6633,7 +6636,7 @@ box-shadow: none;
    
 }
 .call_icon{
-    position: absolute;
+    position:fixed;
        box-shadow: 0px 0px 10px #3ccee2;
     border-radius: 50px;
     letter-spacing: 0.8px;
@@ -6642,45 +6645,12 @@ box-shadow: none;
     -moz-box-shadow: 0 0 5px #fff;
 -webkit-box-shadow: 0 0 5px #fff;
 box-shadow: 0px 0px 5px #fff;
-    position: fixed;
     bottom: 120px;
-  -moz-animation: bounce 0.9s infinite linear;
-  -o-animation: bounce 0.9s infinite linear;
-  -webkit-animation: bounce 0.9s infinite linear;
-  animation: bounce 0.9s infinite linear;
   color:000;
+    z-index: 100;
     
 }
-@-webkit-keyframes call_icon {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@-moz-keyframes call_icon {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@-o-keyframes call_icon {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@-ms-keyframes call_icon {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
-@keyframes call_icon {
-    0% { top: 0; }
-    50% { top: -0.2em; }
-    70% { top: -0.3em; }
-    100% { top: 0; }
-}
+
 .call_icon
 {
     filter:progid:DXImageTransform.Microsoft.Glow(Color=white,Strength=5);
@@ -6696,7 +6666,7 @@ box-shadow: 0px 0px 5px #fff;
     top: 3px;
     
 }
-.btn-holder .quotes{
+.quotes{
     background-color: transparent;
     border:2px solid #ef5b26;
     padding: 10px;
@@ -6704,32 +6674,53 @@ box-shadow: 0px 0px 5px #fff;
      font-weight:bold;
     cursor: pointer;
 }
+.quotes22{
+    background-color: #ef5b26;
+    border:2px solid #ef5b26;
+    padding: 10px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
 .btn-holder .quotes a{
     font-weight:bold;
 }
-.subscribe{
-     width: 40%;
-    height: 40px;
-    background: #ef5b26;
-  border-radius: 10px;
-    line-height: 1;
-    font-size: 16px;
-    border-bottom-left-radius: 0; 
-    border-top-left-radius: 0;
+.qoute_reg{
+    background-color: #f1f1f1;
 }
-.subform input{
-    background: white;
-    height: 40px;
-}
-.subscribe:hover{
-    background-color: transparent;
-    color: white;
-    transition: all 0.7s ease;
+.single {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+
+.single h4 {
+font-size: 16px;
+color: white;
+text-transform: uppercase;
+margin-bottom: 40px; }
+
+ .single .form-control {
+height: 40px;
+background: rgba(255, 255, 255, 0.6);
+border-color: transparent;
+border-radius: 20px 0 0 20px; }
+
+.single .form-control:focus {
+box-shadow: none;
+border-color: #243c4f; }
+
+.single .btn {
+min-height: 30px; 
+border-radius: 0 20px 20px 0;
+background:#ef5b26;
+color: #fff;
 }
 .search-container button {
   float: right;
   padding: 6px 10px;
-  margin-top: 23px;
+  margin-top: 20px;
   margin-right: 16px;
   background: #ddd;
   font-size: 17px;
@@ -6741,7 +6732,38 @@ box-shadow: 0px 0px 5px #fff;
 }
  .search-container input[type=text] {
 /*  padding: 6px;*/
-  margin-top: 23px;
+  margin-top: 20px;
   font-size: 17px;
+/*     padding: 6px 10px;*/
+     height: 37px;
   border: 1px solid black;
+     background: #f1f1f1;
+}
+.vision .img-holder img{
+/*    height: 400px;*/
+/*    width: 100%;*/
+    
+}
+.vision .text h3{
+    color: black;
+}
+.imp_points{
+    list-style:square;
+
+}
+.imp_points li{
+    list-style:circle;
+    color: #888888;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+{
+    
+}
+.disclaimer{
+ font-size: 25px;
+    font-weight: 600;
+    color: #ef5b26;
+    margin-bottom: 6px;   
 }

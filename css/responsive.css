@@ -140,6 +140,13 @@
         display: block;
         position: fixed;
     }
+    .main-header.style-two .search-box .form-group input[type="search"]{
+         position: fixed;
+    }
+    .main-header.style-two .search-box .form-group button{
+        position: fixed;
+        top:99px;
+    }
 }
 
 
@@ -764,7 +771,10 @@
     }
     
     
-    
+    .main-header.style-two .search-box .form-group button{
+        position: fixed;
+        top:68px;
+    } 
     
     
     
